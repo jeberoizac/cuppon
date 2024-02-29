@@ -3,7 +3,8 @@
     font-weight: 300;
     font-style: normal;
     color: #707070;
-   
+    text-align: left;
+    
   }
   
   .roboto-medium {
@@ -11,6 +12,7 @@
     font-weight: 500;
     font-style: normal;
     color: #212529;
+    text-align: left;
    
   }
   /*
@@ -33,11 +35,18 @@ i{
   font-weight: 300;
   font-style: normal;
   color: #707070;
+  text-align: left;
 }
-p{
+div p{
   display: inline;
+  text-align: left;
 }
 
-.prueba{
-  background-color: #6386d1;
+.card-body{
+  border: solid #DDDDDD;
+  max-width: 100%
+}
+.card{
+  margin-top: 1.5rem;
+  border: 0cap;
 }
